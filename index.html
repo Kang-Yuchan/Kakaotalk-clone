@@ -1,120 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link rel="stylesheet "href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <title>Friends</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header class="top-header">
-      <div class="header__top">
-        <div class="header__column">
-          <i class="fa fa-plane"></i>
-          <i class="fa fa-wifi"></i>
-        </div>
-        <div class="header__column">
-          <span class="header__time">오전 5:22</span>
-        </div>
-        <div class="header__column">
-          <i class="fa fa-moon-o"></i>
-          <i class="fa fa-bluetooth-b"></i>
-          <span class="header__battery">100% <i class="fa fa-battery-full"></i></span>
-        </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet " href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Friends</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="top-header">
+    <div class="header__top">
+      <div class="header__column">
+        <i class="fa fa-plane"></i>
+        <i class="fa fa-wifi"></i>
       </div>
-      <div class="header__bottom">
-        <div class="header__column">
-          <span class="header__text">편집</span>
-        </div>
-        <div class="header__column">
-          <span class="header__text">친구 <span class="header__number">1</span></span>
-        </div>
-        <div class="header__column">
-          <i class="fa fa-cog fa-lg"></i>
-        </div>
+      <div class="header__column">
+        <span class="header__time"></span>
       </div>
-    </header>
-    <main class="friends">
-      <div class="search-bar">
-        <i class="fa fa-search"></i>
-        <input type="text" placeholder="Find friends, chats, Plus Friends">
+      <div class="header__column">
+        <i class="fa fa-moon-o"></i>
+        <i class="fa fa-bluetooth-b"></i>
+        <span class="header__battery">100% <i class="fa fa-battery-full"></i></span>
       </div>
-      <section class="friends__section">
-        <header class="friends__section-header">
-          <h6 class="friends__section-title">내 프로필</h6>
-        </header>
-        <div class="friends__section-rows">
-          <div class="friends__section-row">
-              <img src="images/me.JPG" alt="">
-              <a href="profile.html" class="fiends__section-name">
-                kang-yuchan
-              </a>
-          </div>
-        </div>
-      </section>
-      <section class="friends__section">
-        <header class="friends__section-header">
-          <h6 class="friends__section-title">즐겨찾기</h6>
-        </header>
-        <div class="friends__section-rows">
-          <div class="friends__section-row with-tagline">
-              <div class="friends__section-column">
-                  <img src="images/father.JPG" alt="">
-                  <a href="profile1.html">
-                  <span class="friends__section-name">아버지❤️</span>
-                  </a>
-              </div>
-              <span class="friends__section-tagline">
-                하루 하루를 후회없이 나를 사랑하자
-              </span>
-            </div>
-            <div class="friends__section-row with-tagline">
-                <div class="friends__section-column">
-                    <img src="images/mother.JPG" alt="">
-                    <a href="profile2.html">
-                    <span class="friends__section-name">어머니❤️</span>
-                    </a>
-                </div>
-                <span class="friends__section-tagline">
-                  한결같은 마음으로!!!~~
-                </span>
-              </div>
-              <div class="friends__section-row with-tagline">
-                  <div class="friends__section-column">
-                      <img src="images/miku.JPG" alt="">
-                      <a href="profile3.html">
-                      <span class="friends__section-name">여보❤️❤️❤️😍😍😍</span>
-                      </a>
-                  </div>
-                  <span class="friends__section-tagline">
-                    ❤️
-                  </span>
-        </div>
-        </div>
-      </section>
-    </main>
-    <nav class="tab-bar">
-      <a href="index.html" class="tab-bar__tab tab-bar__tab--selected">
-        <i class="fa fa-user"></i>
-        <span class="tab-bar__title">친구</span>
-      </a>
-      <a href="chats.html" class="tab-bar__tab">
-        <i class="fa fa-comment"></i>
-        <span class="tab-bar__title">채팅</span>
-      </a>
-      <a href="find.html" class="tab-bar__tab">
-        <i class="fa fa-search"></i>
-        <span class="tab-bar__title">친구찾기</span>
-      </a>
-      <a href="more.html" class="tab-bar__tab">
-        <i class="fa fa-ellipsis-h"></i>
-        <span class="tab-bar__title">더보기</span>
-      </a>
-    </nav>
-    <div class="bigScreenText">
-      <span>Please make your screen smaller</span>
     </div>
-  </body>
-  </html>
+    <div class="header__bottom">
+      <div class="header__column">
+        <span class="header__text">편집</span>
+      </div>
+      <div class="header__column">
+        <span class="header__text">친구 <span class="header__number">1</span></span>
+      </div>
+      <div class="header__column">
+        <i class="fa fa-cog fa-lg"></i>
+      </div>
+    </div>
+  </header>
+  <main class="friends">
+    <div class="search-bar">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Find friends, chats, Plus Friends">
+    </div>
+    <section class="friends__section">
+      <header class="friends__section-header">
+        <h6 class="friends__section-title">내 프로필</h6>
+      </header>
+      <div class="friends__section-rows">
+        <div class="friends__section-row">
+          <img src="images/me.JPG" alt="">
+          <a href="profile.html" class="fiends__section-name">
+            kang-yuchan
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="friends__section">
+      <header class="friends__section-header">
+        <h6 class="friends__section-title">즐겨찾기</h6>
+      </header>
+      <div class="friends__section-rows">
+        <div class="friends__section-row with-tagline">
+          <div class="friends__section-column">
+            <img src="images/father.JPG" alt="">
+            <a href="profile1.html">
+              <span class="friends__section-name">아버지❤️</span>
+            </a>
+          </div>
+          <span class="friends__section-tagline">
+            하루 하루를 후회없이 나를 사랑하자
+          </span>
+        </div>
+        <div class="friends__section-row with-tagline">
+          <div class="friends__section-column">
+            <img src="images/mother.JPG" alt="">
+            <a href="profile2.html">
+              <span class="friends__section-name">어머니❤️</span>
+            </a>
+          </div>
+          <span class="friends__section-tagline">
+            한결같은 마음으로!!!~~
+          </span>
+        </div>
+        <div class="friends__section-row with-tagline">
+          <div class="friends__section-column">
+            <img src="images/miku.JPG" alt="">
+            <a href="profile3.html">
+              <span class="friends__section-name">여보❤️❤️❤️😍😍😍</span>
+            </a>
+          </div>
+          <span class="friends__section-tagline">
+            ❤️
+          </span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar__tab tab-bar__tab--selected">
+      <i class="fa fa-user"></i>
+      <span class="tab-bar__title">친구</span>
+    </a>
+    <a href="chats.html" class="tab-bar__tab">
+      <i class="fa fa-comment"></i>
+      <span class="tab-bar__title">채팅</span>
+    </a>
+    <a href="find.html" class="tab-bar__tab">
+      <i class="fa fa-search"></i>
+      <span class="tab-bar__title">친구찾기</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab">
+      <i class="fa fa-ellipsis-h"></i>
+      <span class="tab-bar__title">더보기</span>
+    </a>
+  </nav>
+  <div class="bigScreenText">
+    <span>Please make your screen smaller</span>
+  </div>
+
+
+  <script src="js/clock.js"></script>
+</body>
+
+</html>
